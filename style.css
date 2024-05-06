@@ -1,5 +1,5 @@
-body{
-  background-color: white;
+body {
+  background-color: rgb(255, 255, 255);
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
@@ -7,27 +7,20 @@ body{
   padding: 0;
 }
 
-h3{
-  color: blueviolet;
-}
-
 h4 {
   color: blueviolet;
 }
 
 header {
-  margin-top: 10;
-  margin-bottom: 5S;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
 }
 
-header h1, h2{
+header h1, h2, h3 {
   text-align: center;
   color: blueviolet;
 }
 
-header p{
+header p {
   text-align: center;
 }
 
@@ -35,22 +28,34 @@ nav {
   text-align: center;
 }
 
-nav ul li{
+nav ul li {
   display: inline;
   margin: 30px;
 }
 
-.barra-navegacao{
-  color: black; 
+nav {
+  background-color: #625d8a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.barra-navegacao {
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 .barra-navegacao:hover {
-  color: rgb(127, 68, 147);
+  color: rgb(170, 123, 186);
 }
 
-.links-externos{
-  color: rgb(127, 68, 147); 
+section {
+  text-align: center;
+}
+
+.links-externos {
+  color: rgb(127, 68, 147);
   text-decoration: none;
 }
 
@@ -59,29 +64,17 @@ nav ul li{
 }
 
 main {
-  margin-top: 10;
-  margin-bottom: 5S;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
 }
 
-main h2 {
-  text-align: left;
-}
-
-#introducao-inicio{
+#introducao-inicio {
   text-align: center;
 }
 
-footer{
+footer {
   background-color: #625d8a;
   color: white;
   padding: 20px;
   text-align: center;
   width: 100%;
-  left: 0;
-  bottom: 0;
 }
-
-
-
